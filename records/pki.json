@@ -1,0 +1,20 @@
+[
+  {
+    "id": "old-chain",
+    "service": "upload.example.test",
+    "trusted_root": "root-a",
+    "expires": 90
+  },
+  {
+    "id": "new-chain",
+    "service": "upload.example.test",
+    "trusted_root": "root-b",
+    "expires": 180
+  },
+  {
+    "id": "revoke-old",
+    "chain": "old-chain",
+    "effective": 64,
+    "received": 66
+  }
+]

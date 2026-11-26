@@ -1,0 +1,32 @@
+[
+  {
+    "id": "staged-a",
+    "entry": "edge-a",
+    "chains": [
+      "old-chain",
+      "new-chain"
+    ],
+    "approved_at": 52
+  },
+  {
+    "id": "applied-a",
+    "entry": "edge-a",
+    "revision": "r2",
+    "effective": 60
+  },
+  {
+    "id": "queued-b",
+    "entry": "edge-b",
+    "revision": "r2",
+    "state": "accepted",
+    "effective": null
+  },
+  {
+    "id": "late-hs",
+    "entry": "edge-b",
+    "chain": "old-chain",
+    "observed_at": 62,
+    "received": 72,
+    "outcome": "trusted_at_capture"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "stock-a",
+    "group": "east",
+    "root": [
+      "root-a",
+      "root-b"
+    ],
+    "confirmed_at": 49,
+    "entry": "edge-a"
+  },
+  {
+    "id": "stock-b",
+    "group": "west",
+    "root": [
+      "root-a"
+    ],
+    "confirmed_at": 49,
+    "entry": "edge-b"
+  },
+  {
+    "id": "plan-b",
+    "group": "west",
+    "next_root": "root-b",
+    "proposed_at": 70
+  }
+]
